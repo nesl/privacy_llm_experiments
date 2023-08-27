@@ -1,0 +1,168 @@
+-- High level Prompt
+
+You already know the 5 parameters of the context used for an informational flow as described in the theory of Contextual Integrity.  As a reminder, these parameters are data subject, sender, recipient, data type, and transmission principle. I will now share a set of privacy preferences described as informational flows used in contextual integrity - your task is to generate other informational flows that would likely be chosen based on the previous flows. Ready?
+
+
+
+
+-- High level Prompt # 2
+
+You already know the 5 parameters of the context used for an informational flow as described in the theory of Contextual Integrity.  As a reminder, these parameters are data subject, sender, recipient, data type, and transmission principle. I will now share a set of privacy preferences described as informational flows used in contextual integrity - your task is to generate one or more informational flows that you think generalize these informational flows. I will describe these flows in the form of (subject, sender, recipient, data type, transmission principle).  Ready?
+
+
+# Starting off...there isn't an 'expectation' here, just trying things out...
+
+-- Given the following flow:  \n(Bob, public traffic camera, government agency, facial appearance data, data will be confidential between Bob and the government agency.) \n Please identify a more general informational flow for Bob. Please also explain why the answer is more general.
+
+-- ChatGPT: (Bob, public surveillance system, law enforcement agency, personal biometric data, data will be used for security and law enforcement purposes within the agency.)
+
+The flow I provided is more general because it broadens the scope of the sender and the recipient. In the original flow, the sender was specifically mentioned as a "public traffic camera" and the recipient was identified as a "government agency." However, in the more general flow, the sender is referred to as a "public surveillance system," which encompasses a wider range of surveillance technologies beyond just traffic cameras. Similarly, the recipient is referred to as a "law enforcement agency" instead of a specific government agency, indicating that the data may be shared with any relevant law enforcement authority rather than being limited to a single entity. This generalization allows for a wider range of contexts where Bob's personal biometric data may be collected and shared for security and law enforcement purposes.
+
+# Another flow
+
+-- Given the following flow:  \n(Bob, personal mobile device, a 3rd party fitness application, IMU data, data is used for weight loss tracking) \n Please identify a more general informational flow for Bob.  Please also explain why the answer is more general.
+
+-- (Bob, personal wearable device, health and fitness service provider, health and activity data, data is used for personalized fitness tracking and analysis)
+
+The provided flow is more general because it expands the sender and the type of data being transmitted. In the original flow, Bob's personal mobile device is mentioned as the sender, specifically using a third-party fitness application. However, in the more general flow, the sender is referenced as a "personal wearable device," which covers a broader range of devices such as fitness trackers, smartwatches, or similar wearable technologies that can capture health and activity data. This generalization acknowledges the various devices that individuals may use for fitness tracking.
+
+Additionally, the original flow mentioned IMU data, which stands for inertial measurement unit, commonly used to track movement and orientation. However, in the more general flow, it is referred to as "health and activity data" which encompasses a wider range of information, such as heart rate, sleep patterns, steps taken, calories burned, and other relevant health-related metrics. This generalization recognizes the diverse types of data that can be collected and used by health and fitness service providers for personalized fitness tracking and analysis.
+
+
+# Another flow
+
+-- Given the following flow:  \n(Bob, personal voice assistant, immediate family, text data from speech, data is only shared when Bob is at home) \n Please identify a more general informational flow for Bob.  Please also explain why the answer is more general.
+
+
+-- ChatGPT: A more general informational flow for Bob could be:
+
+(Subject: Bob | Sender: Personal devices | Recipient: Authorized contacts | Data type: Personal information | Transmission principle: Data is shared according to Bob's preferences and privacy settings.)
+
+This flow is more general because it includes all types of personal information that Bob might share with authorized contacts through his personal devices. It does not limit the flow to just voice data or to specific recipients such as immediate family members. By considering all personal information and the flexibility of Bob's preferences and privacy settings, it encompasses a wider range of potential informational flows that Bob may engage in.
+
+
+
+# Same prompt as above
+
+-- ChatGPT: A more general informational flow for Bob could be:
+
+(Bob, internet-connected devices, authorized contacts, various data types, data is shared based on predefined permissions)
+
+This flow is more general because it encompasses a broader range of scenarios and technologies. Unlike the specific example that mentions a personal voice assistant and immediate family, this generalized flow includes any internet-connected devices that Bob may interact with. It also expands the potential recipients to authorized contacts, which could include not only family members but also friends, colleagues, or any other individuals whom Bob has granted permission to access his data. Furthermore, the data types are not limited to text data from speech, but can include any type of data that Bob opts to share or that the devices collect. Lastly, the transmission principle is generalized to be based on predefined permissions, which allows for a more flexible context-dependent approach to data sharing.
+
+ 
+# Same prompt as above
+
+-- ChatGPT: A more general informational flow for Bob could be:
+(Bob, personal device/app, trusted contacts, text data, data is only shared when Bob explicitly authorizes)
+
+This flow is more general because it expands the sender from just being a "personal voice assistant" to a "personal device/app." In the initial flow, the sender was specifically limited to a voice assistant, but by generalizing it to a personal device/app, it allows for a wider range of potential senders. This could include various applications or communication platforms that Bob uses on his device, allowing him more flexibility in choosing how and with whom he shares his data.
+
+Additionally, the recipient has been generalized from "immediate family" to "trusted contacts." While immediate family members are typically considered trusted contacts, the latter term encompasses a broader range of individuals that Bob deems trustworthy and wishes to share his data with. This generalization acknowledges that users may have different definitions of trust and may want to share specific data with a wider circle of trusted individuals beyond just immediate family members.
+
+Finally, the data type remains as "text data" to maintain consistency with the initial flow, but the transmission principle has been broadened. Instead of the data being shared only when Bob is at home, this generalized flow states that the data is only shared when Bob explicitly authorizes it. This allows for more flexibility and control over the transmission of data, as Bob can choose when and where he wants to share his information, rather than being limited to a specific location.
+
+Overall, this more general informational flow takes into account the potential variability of devices, recipients, and user preferences, allowing for a wider range of scenarios while still adhering to the core parameters of contextual integrity.
+
+
+
+# Seeking to constrain the answers and make them more privacy aware with norms
+
+-- "Given the following flow:  \n(Bob, personal voice assistant, immediate family, speech data, data is only shared when Bob is at home) \n Please identify a more general data type in this informational flow.  Please also explain why the answer is more general."
+
+-- ChatGPT: A more general data type for the given informational flow could be:
+(Bob, personal voice assistant, immediate family, data, data is only shared when Bob is at home)
+
+This generalized flow replaces the specific data type of "speech data" with a more inclusive and generic term, "data." This generalization allows for the interpretation and representation of various types of information that Bob's personal voice assistant might handle, not solely limited to speech data.
+
+By removing the specificity of "speech data," the flow can accommodate a broader range of data types that can be processed or generated by a voice assistant for Bob. This may include speech data, text data, audio recordings, or any other form of information that the voice assistant deals with.
+
+The purpose of this generalization is to capture the essence of the information being shared while providing flexibility in interpreting the type of data involved. It acknowledges that personal voice assistants can handle different types of data and interactions beyond just speech, depending on their functionalities and the user's needs.
+
+It is important to note that other parameters in the flow, such as the data subject (Bob), the sender (personal voice assistant), the recipient (immediate family), and the transmission principle (data shared only when Bob is at home) remain the same. The change lies primarily in the more generalized and inclusive nature of the data type, allowing for a broader interpretation and representation of the information being shared.
+
+-- Given the more general information flow, do you think that Bob would be willing to approve such an information flow when considering privacy norms?  If not, what is a more specific data type you think Bob would approve of?
+
+
+-- ChatGPT: Considering privacy norms, a more specific data type that Bob might approve of could be "transcribed personal conversations," assuming that Bob values privacy in his conversations with his personal voice assistant. This data type focuses on capturing transcriptions of Bob's conversations rather than a broader category like "data." By specifying "personal conversations," it narrows down the scope and provides clarity regarding Bob's willingness to share such data.
+
+Transcribing personal conversations respects privacy norms by only sharing textual representations of the conversations rather than the raw audio or other potentially sensitive data. This more specific data type acknowledges the importance of privacy in personal discussions while still allowing for the functionality of a voice assistant in assisting Bob during conversations.
+
+It's important to note that this is a speculation based on a general understanding of privacy norms. Actual approval would depend on Bob's specific preferences, which can vary greatly. Privacy is a subjective matter, and each individual may have their own unique boundaries and considerations when it comes to data sharing.
+
+
+
+# Now trying out some privacy preferences that I would choose.
+
+-- You already know the 5 parameters of the context used for an informational flow as described in the theory of Contextual Integrity.  As a reminder, these parameters are data subject, sender, recipient, data type, and transmission principle. I will now share a set of privacy preferences described as informational flows used in contextual integrity.  Let's say you are given the following flows in the form of (subject, sender, recipient, data type, transmission principle):  \n(Bob, mobile device, roommates, location, data is shared when Bob is at his apartment) \n (Bob, personal computer, work collegues, the software app Bob is currently using, data is only shared during work hours) \n (Bob, smart TV, family, history of TV shows watched, no restrictions) \n.  Given these flows, I will now ask you several questions.  Ready?
+
+# Seeking cases where it understands intimacy levels
+
+-- Given the previous allowed informational flows and assuming Bob is willing to follow general societal privacy norms, do you believe that Bob will approve of the following informational flow? \n(Bob, personal computer, friends, current software application Bob is currently using, data is only shared during work hours)?
+
+-- ChatGPT: Based on the given flows and assuming Bob is willing to follow general societal privacy norms, it is likely that Bob will approve of the following informational flow:
+
+(Bob, personal computer, friends, current software application Bob is currently using, data is only shared during work hours)
+
+Since the flow involves sharing the current software application only during work hours with friends, it is more aligned with Bob's privacy preferences, as it respects the context of his work-related activities and limits the sharing of information to a specific group of people. This flow does not disclose potentially sensitive personal information beyond the specified context and time frame, which is in line with general privacy norms.
+
+
+# Again, seeking intimacy levels
+
+-- Given the previous allowed informational flows and assuming Bob is willing to follow general societal privacy norms, do you believe that Bob will approve of the following informational flow? \n(Bob, mobile device, family, location, data is shared when Bob is at his apartment)?
+
+-- ChatGPT: Based on the given flows and assuming Bob is willing to follow general societal privacy norms, it is likely that Bob will approve of the following informational flow:
+
+(Bob, mobile device, family, location, data is shared when Bob is at his apartment)
+
+This flow complies with Bob's privacy preferences as it restricts the sharing of his location data to only when he is at his apartment and with his family. It respects the specific context and participants involved, ensuring that the information is shared within a limited scope. Therefore, given the parameters, this informational flow aligns with general privacy norms and is likely to be approved by Bob.
+
+# Negative case of intimacy
+
+-- Now let's add an additional flow, which Bob will always reject: (Bob, webcam, spouse, facial information, no restrictions).  Given the previous informational flows and assuming Bob is willing to follow general societal privacy norms, do you believe that Bob will approve of the following informational flow? \n(Bob, webcam, friends, facial information, no restrictions)?
+
+-- ChatGPT: Based on the given flows and assuming Bob is willing to follow general societal privacy norms, it is unlikely that Bob will approve of the following informational flow:
+
+(Bob, webcam, friends, facial information, no restrictions)
+
+This flow involves sharing Bob's facial information with his friends without any restrictions. However, considering general societal privacy norms, sharing facial information without any limitations or context can potentially infringe upon Bob's privacy and raise concerns about consent and control over personal data. Therefore, it is expected that Bob will reject this flow to protect his privacy and adhere to societal privacy expectations.
+
+# Negative case of intimacy (has both mistake and good case)
+
+-- Now let's add an additional flow, which Bob will always reject: (Bob, voice assistant, friends, speech data, only share when friends are present in same area).  Given the previous informational flows and assuming Bob is willing to follow general societal privacy norms, do you believe that Bob will approve or reject the following informational flow? \n(Bob, voice assistant, coworkers, speech data, only share when coworkers are present in same area)?
+
+
+-- ChatGPT: Based on the given flows and assuming Bob is willing to follow general societal privacy norms, it is likely that Bob will approve of the following informational flow:
+
+(Bob, voice assistant, coworkers, speech data, only share when coworkers are present in the same area)
+
+Since the flow involves sharing speech data with coworkers only when they are present in the same area, it aligns with the contextual integrity principle and respects Bob's privacy preferences. It ensures that the sharing of speech data is limited to a specific group (coworkers) and takes into account the specific context (when they are present in the same area). This flow is similar to the previous flow involving the software app, where data is shared only during work hours. Therefore, it is expected that Bob will approve of this flow, considering his general willingness to follow societal privacy norms.
+
+
+
+-- ChatGPT: Given the additional flow that Bob will always reject:
+
+(Bob, voice assistant, friends, speech data, only share when friends are present in the same area)
+
+And assuming Bob is willing to follow general societal privacy norms, it is likely that Bob will also reject the following informational flow:
+
+(Bob, voice assistant, coworkers, speech data, only share when coworkers are present in the same area)
+
+This is because the flow involves sharing speech data with coworkers under the condition that they are present in the same area. Just like the rejected flow involving friends, sharing speech data with coworkers in such a manner may still raise concerns about privacy, consent, and the control of personal data. Therefore, it is expected that Bob will reject this flow as well to maintain his privacy and adhere to general societal privacy norms.
+
+
+
+# Asking for approval
+-- Given the previous allowed informational flows and assuming Bob is willing to follow general societal privacy norms, do you believe that Bob will approve of the following informational flow? \n(Bob, personal computer, work collegues, active webcam feed, data is only shared during work hours)?
+
+-- ChatGPT: Based on the given flows and assuming Bob is willing to follow general societal privacy norms, it is unlikely that Bob would approve of the informational flow mentioned: 
+(Bob, personal computer, work colleagues, active webcam feed, data is only shared during work hours).
+
+This is because the flow involves sharing an active webcam feed with work colleagues, which can potentially infringe upon Bob's privacy during non-work hours. Giving consent to such a flow might violate general privacy norms and personal boundaries.
+
+
+-- 
+
+
+
+

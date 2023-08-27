@@ -1,0 +1,19 @@
+{
+     "data": [
+            {"role": "user", "content":
+            "You already know the 5 parameters of the context used for an informational flow as described in the theory of Contextual Integrity.  As a reminder, these parameters are data subject, sender, recipient, data type, and transmission principle.  I will now prompt you with example scenarios, and you determine how acceptable these informational flows are, from a scale of -1.5-1.5." 
+            },
+            {"role": "user", "content":
+            "A sleep monitor records audio of its owner.  In this case, we have the following 5 parameters.\nData subject: owner of the sleep monitor.\n Sender: The sleep monitor device. \n Recipient: The immediate family of the owner.  \n Data type: raw audio data.  \n Transmission principles: The owner has given consent to share this data.  Stepping into the shoes of the data subject, what level of acceptability would you give this overall informational flow?  Please assign a single score to this flow."
+            },
+            {"role": "user", "content":
+            "A sleep monitor records audio of its owner.  In this case, we have the following 5 parameters.\nData subject: owner of the sleep monitor.\n Sender: The sleep monitor device. \n Recipient: The immediate family of the owner.  \n Data type: raw audio data.  \n Transmission principles: The owner is encountering an emergency situation.  Stepping into the shoes of the data subject, what level of acceptability would you give this overall informational flow?  Please assign a single score to this flow."
+            },
+            {"role": "user", "content":
+            "A sleep monitor records audio of its owner.  In this case, we have the following 5 parameters.\nData subject: owner of the sleep monitor.\n Sender: The sleep monitor device. \n Recipient: Other devices in the home.  \n Data type: raw audio data.  \n Transmission principles: The owner is encountering an emergency situation.  Stepping into the shoes of the data subject, what level of acceptability would you give this overall informational flow?  Please assign a single score to this flow."
+            },
+            {"role": "user", "content":
+            "A sleep monitor records audio of its owner.  In this case, we have the following 5 parameters.\nData subject: owner of the sleep monitor.\n Sender: The sleep monitor device. \n Recipient: The device manufacturer.  \n Data type: raw audio data.  \n Transmission principles: The information grants a price discount to the owner.  Stepping into the shoes of the data subject, what level of acceptability would you give this overall informational flow?  Please assign a single score to this flow."
+            }
+     ]
+}

@@ -1,0 +1,19 @@
+{
+     "data": [
+            {"role": "user", "content":
+            "Please describe the 5 parameters of the context used for an informational flow as described in the theory of Contextual Integrity.  As a reminder, these parameters are data subject, sender, recipient, data type, and transmission principle" 
+            },
+            {"role": "user", "content":
+            "Great, you have described all the parameters of the informational flows used in contextual integrity.  Now consider the HIPAA Privacy Rule, which describes different ways that information may be shared.  Please list out as many policies used in the HIPAA Privacy Rule that govern disclosure of health information, and for each policy, describe it in the format of the 5 parameters used in contextual integrity.  More specifically, please list out the allowed informational flows under HIPAA relating to psychotherapy notes."
+            },
+            {"role": "user", "content":
+            "Can you verify if the following informational flow is permitted under HIPAA? \nData subject: A patient or individual whose health information is being disclosed. \n Sender: Any covered entity, such as a hospital. \nRecipient: Any individual. \n Information type: general health condition of the data subject and their location within the facility. \n Transmission Principles: The recipient must ask about the data subject by name, and the data subject has given either informal permission to list this information, or are otherwise incapacitated."
+            },
+            {"role": "user", "content":
+            "Can you verify if the following informational flow is permitted under HIPAA?\nData subject: A patient or individual whose health information is being disclosed. \n Sender: Any covered entity, such as a hospital.\nRecipient: A member of the clergy.\nInformation type: Any kind of directory information, which can be used to determine the individual's name, general condition, religious affiliation, and location within the facility.\nTransmission Principles: The data subject has given either informal permission to list this information, or are otherwise incapacitated."
+            },
+            {"role": "user", "content":
+            "Can you verify if the following informational flow is permitted under HIPAA?\nData subject: A patient or individual whose health information is being disclosed.\nSender: A covered entity.\nRecipient: Any entity involved in treatment of the data subject.\nInformation type: Information relating to psychotherapy notes on the data subject.\nTransmission Principles: The psychiatrist who originated the notes may disclose them without the data subject's approval."
+            }
+     ]
+}

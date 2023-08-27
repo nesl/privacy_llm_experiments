@@ -1,0 +1,19 @@
+{
+     "data": [
+            {"role": "user", "content":
+            "You already know the 5 parameters of the context used for an informational flow as described in the theory of Contextual Integrity.  As a reminder, these parameters are data subject, sender, recipient, data type, and transmission principle. I will now share a set of privacy preferences described as informational flows used in contextual integrity - your task is to generate one or more informational flows that you think generalize these informational flows. I will describe these flows in the form of (subject, sender, recipient, data type, transmission principle).  Ready?" 
+            },
+            {"role": "user", "content":
+            "You already know the 5 parameters of the context used for an informational flow as described in the theory of Contextual Integrity.  As a reminder, these parameters are data subject, sender, recipient, data type, and transmission principle. I will now share a set of privacy preferences described as informational flows used in contextual integrity.  Let's say you are given the following flows in the form of (subject, sender, recipient, data type, transmission principle):  \n(Bob, mobile device, roommates, location, data is shared when Bob is at his apartment) \n (Bob, personal computer, work collegues, the software app Bob is currently using, data is only shared during work hours) \n (Bob, smart TV, family, history of TV shows watched, no restrictions) \n.  Given these flows, I will now ask you several questions.  Ready?"
+            },
+            {"role": "user", "content":
+            "Given the previous allowed informational flows and assuming Bob is willing to follow general societal privacy norms, do you believe that Bob will approve of the following informational flow? \n(Bob, personal computer, work collegues, active webcam feed, data is only shared during work hours)?"
+            },
+            {"role": "user", "content":
+            "Given the previous allowed informational flows and assuming Bob is willing to follow general societal privacy norms, how would you generalize the data types given by the above informational flows?"
+            },
+            {"role": "user", "content":
+            "Now let's add an additional flow, which Bob will always reject: (Bob, voice assistant, friends, speech data, only share when friends are present in same area).  Given the previous informational flows and assuming Bob is willing to follow general societal privacy norms, do you believe that Bob will approve or reject the following informational flow? \n(Bob, voice assistant, coworkers, speech data, only share when coworkers are present in same area)?"
+            }
+     ]
+}
